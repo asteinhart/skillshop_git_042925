@@ -29,12 +29,15 @@ git add <file1> <file2> ...
 ### Step 5: Commit the changes
 ```bash
 git commit -m "Your commit message"
+# commiting adds the staged changes to the git repository. You have officially
+# taken a snapshot of your repository as of this commit.
 ```
 ### Step 6: Push the changes to your branch
 ```bash
 git push origin <your-branch-name>
 # or also can just use  
 # git push
+# In plain english, this reads as, "Send the changes in my current branch to the remote repository named 'origin' under the branch called <your-branch-name>"
 ```
 
 ### Step 7: Create a pull request
