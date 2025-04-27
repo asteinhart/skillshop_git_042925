@@ -24,6 +24,7 @@ git status
 git add <file1> <file2> ...
 # or to stage all modified files
 # git add -u 
+# git add .
 ```
 ### Step 5: Commit the changes
 ```bash
