@@ -37,7 +37,7 @@ git commit -m "Your commit message"
 git push origin <your-branch-name>
 # or also can just use  
 # git push
-# In plain english, this reads as, "Send the changes in my current branch to the remote repository named 'origin' under the branch called <your-branch-name>"
+# In plain english, this reads as, "Send the changes in my current branch to the remote repository named #  'origin' under the branch called <your-branch-name>"
 ```
 
 ### Step 7: Create a pull request
