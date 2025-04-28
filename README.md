@@ -26,6 +26,8 @@ git add <file1> <file2> ...
 # git add -u 
 # git add .
 ```
+### aside: gitignore
+
 ### Step 5: Commit the changes
 ```bash
 git commit -m "Your commit message"
