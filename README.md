@@ -1,5 +1,5 @@
-# skillshop_git_042925
-CAPP Skillshop to learn how to use git and github as part of a team.
+# Skillshop - Git & GitHub
+CAPP Skillshop to learn how to use git and GitHub as part of a team.
 
 ### Step 1: Clone the repository
 ```bash
