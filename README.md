@@ -40,13 +40,15 @@ git commit -m "<type>: <a description that's your commit message>"
 ```
 ### Step 6: Push the changes to your branch
 ```bash
-git push
-# or also you can use:  
-# git push origin <your-branch-name>
+git push origin <your-branch-name>
 
 # In plain english, this reads as:
 # "Send the changes in my current branch to the remote repository
 # named 'origin' under the branch called <your-branch-name>"
+
+# or also you can explicitly specify that the github repo "origin" is where you
+# want to push to. 
+# git push --set-upstream origin update-readme
 ```
 
 ### Step 7: Create a pull request
