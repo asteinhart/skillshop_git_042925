@@ -3,14 +3,16 @@ CAPP Skillshop to learn how to use git and GitHub as part of a team.
 
 ### Step 1: Clone the repository
 ```bash
-cd path/to/your/directory
-git clone git@github.com:[]/skillshop_git_042925.git
+cd <path/to/your/directory>
+git clone git@github.com:<your-user-name>/skillshop_git_042925.git
 ```
 
 ### Step 2: Create a new branch
 ```bash
 git pull
 git switch -c <your-branch-name>
+# Check what branch you are in
+git status
 ```
 
 ### Step 3: Make changes
@@ -25,20 +27,23 @@ git add <file1> <file2> ...
 # or to stage all modified files
 # git add -u 
 # git add .
+
+# check what specific changes you've made
+git diff --cached
 ```
-### aside: gitignore
 
 ### Step 5: Commit the changes
 ```bash
-git commit -m "Your commit message"
+git commit -m "<type>: <a description that's your commit message>"
 # commiting adds the staged changes to the git repository. You have officially
 # taken a snapshot of your repository as of this commit.
 ```
 ### Step 6: Push the changes to your branch
 ```bash
-git push origin <your-branch-name>
-# or also can just use  
-# git push
+git push
+# or also you can use:  
+# git push origin <your-branch-name>
+
 # In plain english, this reads as:
 # "Send the changes in my current branch to the remote repository
 # named 'origin' under the branch called <your-branch-name>"
@@ -80,5 +85,3 @@ git fetch --prune
 ```bash
 git pull
 ```
-# Step 13: Check the status of your local repository
-```bash
