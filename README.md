@@ -29,7 +29,7 @@ git add <file1> <file2> ...
 # git add . # alls all files
 
 # check what specific changes you've made
-git diff --cached
+git diff --cached # what part of the code have you changed 
 ```
 
 ### Step 5: Commit the changes
