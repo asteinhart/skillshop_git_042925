@@ -1,0 +1,6 @@
+'git clone <https>' or 'git clone <ssh>'
+'git switch -c <branchname>' or 'git switch --create <branchname>' for new branch
+'git switch <branchname>' to just go to the branch
+you're working off the grid, when you do 'git add <file>' you are putting your changes on the grid
+add small, save small; add logical, save logical. This means git add and commit only small changes, not a bunch together
+this helps with file retrieval if you need to revert by calling an old commit.
