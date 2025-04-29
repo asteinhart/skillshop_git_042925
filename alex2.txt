@@ -1,0 +1,3 @@
+alex
+
+Code for this was 'echo alex > alex2.txt
