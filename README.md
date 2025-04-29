@@ -4,7 +4,7 @@ CAPP Skillshop to learn how to use git and GitHub as part of a team.
 ### Step 1: Clone the repository
 ```bash
 cd <path/to/your/directory>
-git clone git@github.com:<your-user-name>/skillshop_git_042925.git
+git clone git@github.com:asteinhart/skillshop_git_042925.git
 ```
 
 ### Step 2: Create a new branch
@@ -25,8 +25,8 @@ git status
 git status
 git add <file1> <file2> ...
 # or to stage all modified files
-# git add -u 
-# git add .
+# git add -u # only previous tracked file changes
+# git add . # alls all files
 
 # check what specific changes you've made
 git diff --cached
@@ -49,6 +49,9 @@ git push origin <your-branch-name>
 # or also you can explicitly specify that the github repo "origin" is where you
 # want to push to. 
 # git push --set-upstream origin update-readme
+
+# after the first push you can simply use
+# git push
 ```
 
 ### Step 7: Create a pull request
@@ -75,15 +78,15 @@ git pull
 ```
 
 ## Optional Steps
-# Step 10: Delete your branch locally
+### Step 10: Delete your branch locally
 ```bash
 git branch -d <your-branch-name>
 ```
-# Step 11: Clean up remote branches
+### Step 11: Clean up remote branches
 ```bash
 git fetch --prune
 ```
-# Step 12: Update your local repository
+### Step 12: Update your local repository
 ```bash
 git pull
 ```
