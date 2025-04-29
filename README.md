@@ -6,6 +6,7 @@ CAPP Skillshop to learn how to use git and GitHub as part of a team.
 cd <path/to/your/directory>
 git clone git@github.com:asteinhart/skillshop_git_042925.git
 ```
+#random
 
 ### Step 2: Create a new branch
 ```bash
